@@ -94,19 +94,19 @@ Cualquier dispositivo compatible con Meshtastic y soportado por la librería ofi
 
 ```bash
 
-sudo apt install -y \\
+sudo apt install -y \\\\
 
-&#x20;   python3 \\
+\&#x20;   python3 \\\\
 
-&#x20;   python3-pip \\
+\&#x20;   python3-pip \\\\
 
-&#x20;   python3-venv \\
+\&#x20;   python3-venv \\\\
 
-&#x20;   python3-dev \\
+\&#x20;   python3-dev \\\\
 
-&#x20;   build-essential \\
+\&#x20;   build-essential \\\\
 
-&#x20;   usbutils
+\&#x20;   usbutils
 
 ```
 
@@ -118,9 +118,9 @@ sudo apt install -y \\
 
 ```bash
 
-mkdir -p \~/meshtastic-bot
+mkdir -p \\\~/meshtastic-bot
 
-cd \~/meshtastic-bot
+cd \\\~/meshtastic-bot
 
 
 
@@ -154,11 +154,11 @@ pip install --upgrade meshtastic
 
 ```bash
 
-git clone https://github.com/bysepa1/Meshtastic\_Bot\_ping.git
+git clone https://github.com/bysepa1/Meshtastic\\\_Bot\\\_ping.git
 
 
 
-cd Meshtastic\_Bot\_ping
+cd Meshtastic\\\_Bot\\\_ping
 
 ```
 
@@ -182,7 +182,7 @@ Autodetección:
 
 ```python
 
-SERIAL\_PORT = None
+SERIAL\\\_PORT = None
 
 ```
 
@@ -194,7 +194,7 @@ Puerto manual:
 
 ```python
 
-SERIAL\_PORT = "/dev/ttyACM0"
+SERIAL\\\_PORT = "/dev/ttyACM0"
 
 ```
 
@@ -206,11 +206,11 @@ SERIAL\_PORT = "/dev/ttyACM0"
 
 ```python
 
-CHANNEL\_NAMES = (
+CHANNEL\\\_NAMES = (
 
-&#x20;   "Bots",
+\&#x20;   "Bots",
 
-&#x20;   "Test",
+\&#x20;   "Test",
 
 )
 
@@ -238,7 +238,7 @@ COMMAND = "/ping"
 
 LOCATION = "UBICACIÓN"
 
-BOT\_AUTHOR = "@BySepa"
+BOT\\\_AUTHOR = "@BySepa"
 
 ```
 
@@ -250,7 +250,7 @@ BOT\_AUTHOR = "@BySepa"
 
 ```bash
 
-python3 ping\_bot.py
+python3 ping\\\_bot.py
 
 ```
 
@@ -280,9 +280,9 @@ Respuesta:
 
 /pong
 
-Origen: Nodo\_Remoto
+Origen: Nodo\\\_Remoto
 
-Nodo: Nodo\_Bot | @BySepa
+Nodo: Nodo\\\_Bot | @BySepa
 
 Saltos: 2
 
@@ -308,7 +308,7 @@ El bot registra su actividad en:
 
 ```text
 
-meshtastic\_bot.log
+meshtastic\\\_bot.log
 
 ```
 
